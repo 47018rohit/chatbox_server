@@ -1,0 +1,16 @@
+{
+  "name": "chatbox",
+  "version": "1.0.0",
+  "description": "web chat application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "rohit_prakash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.1"
+  }
+}
