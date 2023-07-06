@@ -1,6 +1,8 @@
 import './server.js'
 import { db } from './db.js'
-import { user } from './model/userModel.js';
+import userRouter from './routes/userRoutes.js';
+
+
 
 
 db();
